@@ -1,4 +1,6 @@
 
+import photo from "../assets/image.jpeg";
+
 export default function InfosPerso() {
     return (
         <div className="card border-0 shadow rounded-4 overflow-hidden mb-4">
@@ -13,10 +15,12 @@ export default function InfosPerso() {
         
                     <div className="col-12 col-md-4 text-center">
                         <img
-                            src="./src/assets/image.jpeg"
+                            src={photo}
                             alt="Photo de profil d'Alassane Sow"
                             className="rounded-circle shadow border border-3 border-white"
                             style={{ objectFit: "cover" }}
+                            width={100}
+                            height={100}
                         />
                     </div>
 
