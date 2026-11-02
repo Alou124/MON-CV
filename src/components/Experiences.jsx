@@ -1,4 +1,4 @@
-import photo from "../assets/LOGO-SONATEL.webq";
+import photo1 from "../assets/LOGO-SONATEL.webp";
 export default function Experiences() {
     return (
         <div className="card border-0 shadow-sm p-4 p-md-5 rounded-4">
@@ -35,7 +35,7 @@ export default function Experiences() {
                         style={{ width: 75, height: 75, flexShrink: 0 }}
                     >
                         <img
-                            src="/src/assets/LOGO-SONATEL.webp"
+                            src={photo1}
                             alt="Logo SONATEL"
                             style={{
                                 width: "100%",

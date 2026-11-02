@@ -1,4 +1,4 @@
-import photo from "../assets/image.jpeg";
+
 import InfosPerso from './components/InfosPerso'
 import Competences from './components/Competences'
 import './App.css'
