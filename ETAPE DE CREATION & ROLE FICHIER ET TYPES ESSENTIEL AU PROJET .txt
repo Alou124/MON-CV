@@ -1,51 +1,42 @@
-Étape 1 : Créer le projet nommé 001
-
-npm create vite@latest 001 -- --template react-ts
-
-Étape 2 : Accéder au dossier
-
+﻿Création d’un projet React avec Vite
+1. Étapes de création
+Étape 1 : Vérifier Node.js et npm
+node -v
+npm -v
+Étape 2 : Créer le projet
+npm create vite@latest 001
+Choisir React, puis JavaScript.
+Étape 3 : Entrer dans le dossier
 cd 001
-
-Étape 3 : Installer les dépendances
-
+Étape 4 : Installer les dépendances
 npm install
-
-Étape 4 : Lancer le projet
-
+Étape 5 : Lancer le serveur
 npm run dev
-
-Ouvrir l’adresse locale affichée dans le terminal pour visualiser l’application.
-
-2. Rôle des principaux dossiers et fichiers
-
-node_modules/ : contient les bibliothèques installées.
-
-public/ : contient les fichiers statiques accessibles directement.
-
-src/ : contient le code source de l’application.
-
-src/App.tsx : composant principal de l’application.
-
-src/main.tsx : point d’entrée de React ; affiche le composant principal dans la page HTML.
-
-src/App.css : styles du composant principal.
-
-src/index.css : styles globaux.
-
-index.html : page HTML de départ contenant l’élément root.
-
-package.json : contient les dépendances et les commandes du projet.
-
-package-lock.json : enregistre les versions précises des dépendances.
-
-vite.config.ts : configure Vite.
-
-tsconfig.json : configure TypeScript.
-
+Ouvrir l’adresse affichée dans le terminal pour accéder à l’application.
+2. Rôle des dossiers et fichiers
+• node_modules/ : contient les bibliothèques installées.
+• public/ : contient les fichiers statiques accessibles directement.
+• src/ : contient le code source de l’application.
+• src/assets/ : contient les images et autres ressources.
+• App.jsx : composant principal de l’application React.
+• main.jsx : point d’entrée qui affiche React dans la page HTML.
+• App.css : contient les styles du composant App.
+• index.css : contient les styles généraux.
+• index.html : page HTML de départ contenant l’élément root.
+• package.json : contient les informations du projet, les dépendances et les commandes npm.
+• package-lock.json : enregistre les versions précises des dépendances.
+• vite.config.js : contient la configuration de Vite.
 3. Types de fichiers indispensables
+• .jsx : permet d’écrire des composants React avec JavaScript.
+• .js : contient du code JavaScript.
+• .css : permet de gérer le style.
+• .html : définit la structure de la page web.
+• .json : contient des données et des configurations.
+4. Commandes importantes
+• npm create vite@latest 001 : crée le projet.
+• cd 001 : entre dans le dossier.
+• npm install : installe les dépendances.
+• npm run dev : lance le serveur de développement.
+• npm run build : prépare la version de production.
+• npm run preview : permet de prévisualiser la version de production.
 
-.tsx : fichiers TypeScript contenant du JSX, notamment les composants React.
-
-.css : mise en forme de l’interface.
-
-.json : données structurées et configuration.
