@@ -1,4 +1,4 @@
-
+import photo from "../assets/image.jpeg";
 export default function InfosPerso() {
     return (
         <div className="card border-0 shadow rounded-4 overflow-hidden mb-4">
@@ -7,7 +7,6 @@ export default function InfosPerso() {
             <div className="bg-primary" style={{ height: 6 }}></div>
 
             <div className="p-4 p-md-5">
-
                 <div className="row align-items-center g-4">
 
         
