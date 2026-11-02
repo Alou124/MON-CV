@@ -10,14 +10,12 @@ export default function InfosPerso() {
 
                 <div className="row align-items-center g-4">
 
-                    {/* Photo de profil */}
+        
                     <div className="col-12 col-md-4 text-center">
                         <img
                             src="./src/assets/image.jpeg"
                             alt="Photo de profil d'Alassane Sow"
                             className="rounded-circle shadow border border-3 border-white"
-                            width="160"
-                            height="160"
                             style={{ objectFit: "cover" }}
                         />
                     </div>
