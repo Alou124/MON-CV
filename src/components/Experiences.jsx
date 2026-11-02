@@ -1,4 +1,4 @@
-
+import photo from "../assets/LOGO-SONATEL.webq";
 export default function Experiences() {
     return (
         <div className="card border-0 shadow-sm p-4 p-md-5 rounded-4">
